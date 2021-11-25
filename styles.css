@@ -1,0 +1,20 @@
+body{
+    background-image: url(/home/ann/Desktop/Pizza/static/image/background.jpeg);
+    background-size: cover;
+}
+.bar-item{
+background-color: brown;
+padding:10px;
+width: auto;
+float:left;
+display:block;
+}
+.text{
+    text-align: center;
+    color:whitesmoke;
+    padding-top: 260px;
+}
+.text >p{
+    float: right;
+    padding-top: 90px;
+}
