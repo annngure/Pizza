@@ -28,3 +28,21 @@ padding: 50px;
  font-weight: bolder;
  font-size: larger;
 }
+.drinks{
+    padding: 50px;
+ text-align: center;
+ color:black;
+ background-image: url(/home/ann/Desktop/Pizza/static/image/drinks3.jpeg);
+ font-family: 'Times New Roman', Times, serif;
+ font-weight: bolder;
+ background-size: cover;
+ 
+}
+.drinks>h5{
+   font-weight: bolder;
+      font-size: xx-large;
+}
+.drinks>h6{
+    font-weight: bolder; 
+    font-size: x-large;
+}
