@@ -1,4 +1,4 @@
-# DELANI STUDIO
+# PIZZA HOUSE.
 
 #### This is a site dedicated to me documenting my coding work in jQuery, 28/11/2021
 
