@@ -20,9 +20,11 @@ display:block;
     padding-top: 400px;
 }
 .information{
- padding:30px;
+padding: 50px;
  text-align: center;
-}
-.piz{
-   padding-right:10px;
+ color:black;
+ background-image: url(/home/ann/Desktop/Pizza/static/image/pizzabkg_1.jpg);
+ font-family: 'Times New Roman', Times, serif;
+ font-weight: bolder;
+ font-size: larger;
 }
