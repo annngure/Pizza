@@ -1,6 +1,7 @@
-body{
+.bgi{
     background-image: url(/home/ann/Desktop/Pizza/static/image/background.jpeg);
     background-size: cover;
+    height:800px;
 }
 .bar-item{
 background-color: brown;
@@ -11,10 +12,17 @@ display:block;
 }
 .text{
     text-align: center;
-    color:whitesmoke;
-    padding-top: 260px;
+    color:black;
+    padding-top: 280px;
 }
-.text >p{
+.text>p{
     float: right;
-    padding-top: 90px;
+    padding-top: 400px;
+}
+.information{
+ padding:30px;
+ text-align: center;
+}
+.piz{
+   padding-right:10px;
 }

@@ -1,0 +1,7 @@
+ <div class="information">
+        <p>© 2021 PIZZA HOUSE LTD. All Rights Reserved</p>
+        <div class="icons">
+            <img src="static/image/instagram.png" alt="instagram">
+            <img src="static/image/facebook.png" alt="facebook">
+            <img src="static/image/twitter.png" alt="twitter">
+        </div>
