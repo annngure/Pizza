@@ -61,8 +61,14 @@ padding: 50px;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     font-size: larger;
-    background-color: ghostwhite;
+    background-color: beige;
 }
 .about>h8{
     font-size: xx-large;
+}
+.contact{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    background-color:beige;
 }
