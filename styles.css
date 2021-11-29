@@ -22,30 +22,11 @@ display:block;
 padding: 50px;
  text-align: center;
  color:black;
- background-image: url(/home/ann/Desktop/Pizza/static/image/menuback.jpg);
  background-size: cover;
  font-family: 'Times New Roman', Times, serif;
- font-weight: bolder;
- font-size: larger;
+font-size: larger;
 }
-.drinks{
-    padding: 50px;
- text-align: center;
- color:black;
 
- font-family: 'Times New Roman', Times, serif;
- font-weight: bolder;
- background-size: cover;
- 
-}
-.drinks>h5{
-   font-weight: bolder;
-      font-size: xx-large;
-}
-.drinks>h6{
-    font-weight: bolder; 
-    font-size: x-large;
-}
 .order{
     text-align: center;
     background-color: beige;
@@ -60,16 +41,13 @@ padding: 50px;
 .about{
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
-    font-size: larger;
-    background-color: beige;
+    font-size: x-large;
+    background-color:beige;
     padding-bottom: 40px;
 }
 .about>h8{
     font-size: xx-large;
 }
 .contact{
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: x-large;
-    background-color:beige;
+    
 }
