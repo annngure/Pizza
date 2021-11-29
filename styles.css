@@ -1,7 +1,6 @@
 .bgi{
-    background-image: url(/home/ann/Desktop/Pizza/static/image/background.jpeg);
-    background-size: cover;
-    height:800px;
+    background-image: url(/home/ann/Desktop/Pizza/static/image/pizzabkg_1.jpg);
+    height:600px;
 }
 .bar-item{
 background-color: brown;
@@ -23,7 +22,8 @@ display:block;
 padding: 50px;
  text-align: center;
  color:black;
- background-image: url(/home/ann/Desktop/Pizza/static/image/pizzabkg_1.jpg);
+ background-image: url(/home/ann/Desktop/Pizza/static/image/menuback.jpg);
+ background-size: cover;
  font-family: 'Times New Roman', Times, serif;
  font-weight: bolder;
  font-size: larger;
@@ -32,7 +32,7 @@ padding: 50px;
     padding: 50px;
  text-align: center;
  color:black;
- background-image: url(/home/ann/Desktop/Pizza/static/image/drinks3.jpeg);
+
  font-family: 'Times New Roman', Times, serif;
  font-weight: bolder;
  background-size: cover;
@@ -45,4 +45,24 @@ padding: 50px;
 .drinks>h6{
     font-weight: bolder; 
     font-size: x-large;
+}
+.order{
+    text-align: center;
+    background-color: beige;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+}
+.order>h7{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.about{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    background-color: ghostwhite;
+}
+.about>h8{
+    font-size: xx-large;
 }
