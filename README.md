@@ -15,7 +15,7 @@ This is about the codes that i have done and more that i will do ,the site built
 
 ## Live link
 
-https://github.com/annngure/Pizza
+https://annngure.github.io/Pizza/
 ## Known Bugs
 the navigatio bar might not work
 
