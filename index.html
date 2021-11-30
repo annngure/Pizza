@@ -8,8 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
 
     <!-- Optional JavaScript -->
@@ -18,12 +17,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -45,78 +39,91 @@
         <h1 style="color: brown;">THE MENU.</h1>
         <h2>PIZZA.</h2>
         <div id="pizza" class="P2">
-            <div class="smallcr"> 
+            <div id="smallcr"> 
             <h2>Crispy with mushrooms and/or Extra cheese and/or Pepperoni.</p>
            <img src="/home/ann/Desktop/Pizza/static/image/smallpizza.jpeg" alt="spizza">
-            <p class="smallprice">Small @ Kshs 550</p>
-            <button class="add" type="button">Add.</button>
+            <p id="smallprice">Small @ Kshs 550</p>
+            <button id="add" type="button">Add.</button>
             </div>
-            <div class="mediumcr">
+            <div id="mediumcr">
             <p class="mediumprice">Medium @ Kshs 800.</p>
-            <button class="add" type="button">Add.</button>
+            <button id="add" type="button">Add.</button>
            </div>
-           <div class="largecr">
+           <div id="largecr">
             <p>Large @ Kshs 1000.</p>
-            <button class="add" type="button">Add.</button>
+            <button id="add" type="button">Add.</button>
            </div>
            </div>
            <br>
-           <div class="smallst">
+           <div id="smallst">
             <h3 id="stuffed">Stuffed with mushrooms and/or Extra cheese and/or Pepperoni. </h3>
             <img src="/home/ann/Desktop/Pizza/static/image/medium.jpeg" alt="mpizza" style="width:300px;height: min-content;">
             <p>Small @ Kshs 600.</p>
-            <button class="add" type="button">Add.</button>
+            <button id="add" type="button">Add.</button>
            </div>
             </div>
-            <div class="mediumst" style="text-align: center;">
+            <div id="mediumst" style="text-align: center;">
             <p>Medium @ Kshs 850.</p>
-            <button class="add" type="button">Add.</button>
+            <button id="add" type="button">Add.</button>
            </div>
             </div>
-            <div class="largest" style="text-align: center"; >
+            <div id="largest" style="text-align: center"; >
             <p>Large @ Kshs 1050.</p>
-            <button class="add" type="button">Add.</button>
+            <button id="add" type="button">Add.</button>
            </div>
             </div>
             <br>
-            <div class="smallgl"style="text-align: center";>
+            <div id="smallgl"style="text-align: center";>
             <h4 id ="gluten">Gluten-free with mushrooms and/or Extra cheese and/or Pepperoni.</h4>
             <img src="/home/ann/Desktop/Pizza/static/image/Large.jpeg" alt="lpizza">
             <p>Small @ Kshs 700.</p>
-            <button class="add" type="button">Add.</button>
+            <button id="add" type="button">Add.</button>
            </div>
             </div>
-            <div class="mediumgl"style="text-align: center";>
+            <div id="mediumgl"style="text-align: center";>
             <p>Medium @ Kshs 900.</p>
-            <button class="add" type="button">Add.</button>
+            <button id="add" type="button">Add.</button>
            </div>
             </div>
-            <div class="largest"style="text-align: center";>
+            <div id="largest"style="text-align: center";>
             <p>Large @ Kshs 1200.</p>
-            <button class="add" type="button">Add.</button>
+            <button id="add" type="button">Add.</button>
            </div>
             </div>
         </div>
     </div>
+    <br>
     <!--How to order-->
     <div class="order">
         <h7><strong>ORDER</strong></h7>
         <p>For the first new customer order, there is free delivery within nairobi.</p>
         <p>Add to cart.</p>
-        <br>
-        <div class="small">
-       
-        <lable>Small Pizza.</lable>
-        <div class="pizza-prize">
+        <div class="cart">
 
-        </div>
-        </div>
-        
-        <lable>Medium Pizza</lable>
-      
-        <lable>Large Pizza.</lable>
+            <table id="cart-table">
+              <thead>
+                <tr>
+                  <th>ITEM</th>
+                  </tr>
+                  <tr>
+                  <th>PRICE</th>
+                </tr>
+                <tr>
+                  <th>QTY</th>
+                </tr>
+              </thead>
+            </table>
+
+            <div class="cart-total" id="cartTotal">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price">$0</span>
+            </div>
+            <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
     </div>
+</div>
     <!---about-->
+    <br>
+    <br>
     <div class="about">
         <h8><strong>ABOUT</strong></h8>
         <p>This is <strong>PIZZA HOUSE</strong> founded in 2002.</p>
